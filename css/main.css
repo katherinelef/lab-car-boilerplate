@@ -1,1 +1,18 @@
 /* Los estilos de tu proyecto */
+.navbar {
+  background-color: white;
+  border:none;
+}
+
+.comienza-viajar {
+  background-image: url("../assets/images/taxi.jpg");
+  height: 900px;
+  background-size: cover;
+}
+
+@media (max-width: 768px) {
+  .navbar-brand {
+    display: block;
+    transform: translateX(70%);
+  }
+}
