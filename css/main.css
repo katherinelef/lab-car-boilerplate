@@ -29,12 +29,51 @@
   margin-top: 20px;
 }
 
-h1 {
+h1,h2 {
   line-height: 0.5;
 }
+
+h4 {
+  padding-top:15px;
+  color:white;
+}
+
+h5:after,h5:before {
+   content: "__________________";
+   color:white;
+}
+
+.nueva-app {
+background-color: #f7b617;
+padding-top: 30px;
+color:white;
+}
+
+.nueva-app div{
+border:1px solid white;
+margin: 15px;
+padding-top: 60px;
+padding-bottom: 40px;
+}
+
 @media (max-width: 768px) {
   .navbar-brand {
     display: block;
     transform: translateX(70%);
+  }
+
+}
+
+@media (min-width: 768px) {
+
+  .logo-blanco-small{
+    width: 60px;
+    height: 15px;
+    margin-left: 8px;
+  }
+  .jumbotron {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    transform: translateY(50%);
   }
 }
