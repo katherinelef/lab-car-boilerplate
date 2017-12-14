@@ -14,9 +14,24 @@
 
 .jumbotron {
   background-color: #f7b617;
-  margin-top: 50%;
+  transform: translateY(80%);
+  color: white;
+  padding-left: 40px;
 }
 
+.logo-blanco-small{
+  width: 80px;
+  height: 20px;
+}
+
+.btn {
+  border: none;
+  margin-top: 20px;
+}
+
+h1 {
+  line-height: 0.5;
+}
 @media (max-width: 768px) {
   .navbar-brand {
     display: block;
