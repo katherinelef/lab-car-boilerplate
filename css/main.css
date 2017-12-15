@@ -60,6 +60,7 @@ padding-bottom: 40px;
 padding-bottom: 10px;
 padding-top: 25px;
 margin-left: 15px;
+margin-bottom: 0;
 }
 
 .nueva-app h3{
@@ -67,11 +68,31 @@ padding-bottom: 10px;
 }
 
 .conviertete-conductor{
-  background-image: url("../assets/images/conduce.jpg");
+  background-image:url("../assets/images/conduce.jpg");
   height: 600px;
   background-repeat: no-repeat;
   background-size:cover;
   background-position:50% 100%;
+  color:white;
+  }
+
+.conviertete-conductor .container{
+  transform: translateY(80%);
+  margin-left: 30px;
+}
+
+.container-opacy {
+  background-color: rgba(0, 0, 0, 0.5);
+  height: 100%
+}
+
+.conviertete-conductor .btn {
+  background-color: #f7b617;
+  color: white;
+}
+
+.conviertete-conductor h4 {
+  line-height: 1.5;
 }
 
 @media (max-width: 768px) {
