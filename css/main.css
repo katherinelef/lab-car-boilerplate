@@ -9,14 +9,14 @@
   background-repeat: no-repeat;
   background-size:cover;
   background-position:50% 100%;
-  height: 700px;
+  height: 600px;
 }
 
 .jumbotron {
   background-color: #f7b617;
   transform: translateY(80%);
   color: white;
-  padding-left: 40px;
+  padding-left: 4%;
 }
 
 .logo-blanco-small{
@@ -49,11 +49,29 @@ padding-top: 30px;
 color:white;
 }
 
-.nueva-app div{
+.nueva-app .row {
 border:1px solid white;
 margin: 15px;
-padding-top: 60px;
+padding-top: 50px;
 padding-bottom: 40px;
+}
+
+.nueva-app h4{
+padding-bottom: 10px;
+padding-top: 25px;
+margin-left: 15px;
+}
+
+.nueva-app h3{
+padding-bottom: 10px;
+}
+
+.conviertete-conductor{
+  background-image: url("../assets/images/conduce.jpg");
+  height: 600px;
+  background-repeat: no-repeat;
+  background-size:cover;
+  background-position:50% 100%;
 }
 
 @media (max-width: 768px) {
@@ -76,4 +94,21 @@ padding-bottom: 40px;
     padding-bottom: 10px;
     transform: translateY(50%);
   }
+
+  .nueva-app {
+  padding-bottom: 10px;
+  padding-top: 10px;
+  }
+
+.nueva-app .row {
+  width:75%;
+  margin-left: 0;
+  border-left:none;
+}
+
+.nueva-app p {
+line-height: 1.7;
+font-size: 17px;
+padding-bottom: 20px;
+
 }
