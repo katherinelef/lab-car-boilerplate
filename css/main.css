@@ -97,8 +97,44 @@ padding-bottom: 10px;
 }
 
 .tarifas{
-  background-color: #f7b617
+  background-color: #f7b617;
+  padding: 15px;
 }
+
+.tarifas h3 {
+  color: white;
+  margin-top: 0;
+  padding-top: 60px;
+}
+
+.tarifas h4 {
+  margin-bottom: 45px;
+}
+
+.tarifas .btn {
+  border-radius:3px;
+  font-size: 15px;
+  font-weight: bold;
+  transform: translateX(120%);
+}
+
+.tarifas .container img {
+  border: 1px solid white;
+  padding: 10px;
+  margin-top: 80px;
+  margin-bottom: 60px;
+}
+.form-control {
+  background-color: #f7b617;
+  border:1px solid white;
+  width: 80%;
+  display: inline-block;
+}
+.form-group img {
+  display: inline-block;
+}
+
+
 
 @media (max-width: 768px) {
   .navbar-brand {
@@ -152,4 +188,20 @@ padding-bottom: 20px;
 .container-opacy .container {
   transform: translateY(0);
   margin-right: 0;
+}
+
+.tarifas .btn {
+  border-radius:3px;
+  font-size: 15px;
+  font-weight: bold;
+  transform: translateX(80%);
+}
+
+.tarifas .container img {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.tarifas form {
+  margin-left: 40px;
 }
