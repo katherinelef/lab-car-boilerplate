@@ -1,4 +1,8 @@
 /* Los estilos de tu proyecto */
+body *{
+  font-family: 'Raleway', sans-serif;
+}
+
 .navbar {
   background-color: white;
   border:none;
@@ -118,7 +122,7 @@ padding-bottom: 10px;
   transform: translateX(120%);
 }
 
-.tarifas .container img {
+.tarifas .container iframe {
   border: 1px solid white;
   padding: 10px;
   margin-top: 80px;
@@ -134,7 +138,22 @@ padding-bottom: 10px;
   display: inline-block;
 }
 
+footer {
+  background-color: #2b2b2b;
+  padding: 15px;
+}
 
+ footer i {
+   color:white;
+ }
+
+.iconos i{
+  padding-right: 10px;
+}
+
+.google img {
+  margin-top: 30px;
+}
 
 @media (max-width: 768px) {
   .navbar-brand {
@@ -142,10 +161,18 @@ padding-bottom: 10px;
     transform: translateX(70%);
   }
 
+
 }
 
 @media (min-width: 768px) {
 
+  body {
+    font-family: 'Raleway', sans-serif;
+  }
+
+  .navbar-collapse {
+    width: 800px;
+  }
   .logo-blanco-small{
     width: 60px;
     height: 15px;
@@ -197,11 +224,20 @@ padding-bottom: 20px;
   transform: translateX(80%);
 }
 
-.tarifas .container img {
+.tarifas .container iframe {
   margin-top: 20px;
   margin-bottom: 20px;
 }
 
 .tarifas form {
   margin-left: 40px;
+}
+
+.google{
+  transform: translateY(100%);
+}
+
+.iconos{
+  transform: translateY(1750%);
+}
 }
