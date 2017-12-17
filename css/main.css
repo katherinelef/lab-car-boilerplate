@@ -1,8 +1,9 @@
-/* Los estilos de tu proyecto */
+/*Estilos del proyecto */
 body *{
   font-family: 'Raleway', sans-serif;
 }
 
+/*Estilos al */
 .navbar {
   background-color: white;
   border:none;
@@ -10,22 +11,22 @@ body *{
 
 .comienza-viajar {
   background-image: url("../assets/images/taxi.jpg");
+  background-position:50% 100%;
   background-repeat: no-repeat;
   background-size:cover;
-  background-position:50% 100%;
   height: 600px;
 }
 
 .jumbotron {
   background-color: #f7b617;
-  transform: translateY(80%);
   color: white;
   padding-left: 4%;
+  transform: translateY(80%);
 }
 
 .logo-blanco-small{
-  width: 80px;
   height: 20px;
+  width: 80px;
 }
 
 .btn {
@@ -38,52 +39,52 @@ h1,h2 {
 }
 
 h4 {
-  padding-top:15px;
   color:white;
+  padding-top:15px;
 }
 
 h5:after,h5:before {
-   content: "__________________";
-   color:white;
+  content: "__________________";
+  color:white;
 }
 
 .nueva-app {
-background-color: #f7b617;
-padding-top: 30px;
-color:white;
+  background-color: #f7b617;
+  color:white;
+  padding-top: 30px;
 }
 
 .nueva-app .row {
-border:1px solid white;
-margin: 15px;
-padding-top: 50px;
-padding-bottom: 40px;
+  border:1px solid white;
+  margin: 15px;
+  padding-bottom: 40px;
+  padding-top: 50px;
 }
 
 .nueva-app h4{
-padding-bottom: 10px;
-padding-top: 25px;
-margin-left: 15px;
-margin-bottom: 0;
+  margin-bottom: 0;
+  margin-left: 15px;
+  padding-bottom: 10px;
+  padding-top: 25px;
 }
 
 .nueva-app h3{
-padding-bottom: 10px;
+  padding-bottom: 10px;
 }
 
 .conviertete-conductor{
   background-image:url("../assets/images/conduce.jpg");
-  height: 450px;
+  background-position:50% 100%;
   background-repeat: no-repeat;
   background-size:cover;
-  background-position:50% 100%;
   color:white;
+  height: 450px;
   }
 
 .conviertete-conductor .container{
-  transform: translateY(50%);
-  padding-left: 30px;
   box-sizing: border-box;
+  padding-left: 30px;
+  transform: translateY(50%);
 }
 
 .container-opacy {
@@ -124,15 +125,15 @@ padding-bottom: 10px;
 
 .tarifas .container iframe {
   border: 1px solid white;
-  padding: 10px;
-  margin-top: 80px;
   margin-bottom: 60px;
+  margin-top: 80px;
+  padding: 10px;
 }
 .form-control {
   background-color: #f7b617;
   border:1px solid white;
-  width: 80%;
   display: inline-block;
+  width: 80%;
 }
 .form-group img {
   display: inline-block;
@@ -155,13 +156,14 @@ footer {
   margin-top: 30px;
 }
 
+/*Estilos responsive */
+
 @media (max-width: 768px) {
+
   .navbar-brand {
     display: block;
     transform: translateX(70%);
   }
-
-
 }
 
 @media (min-width: 768px) {
@@ -171,16 +173,16 @@ footer {
   }
 
   .navbar-collapse {
-    width: 800px;
+    width: 80%;
   }
   .logo-blanco-small{
-    width: 60px;
     height: 15px;
     margin-left: 8px;
+    width: 60px;
   }
   .jumbotron {
-    padding-top: 10px;
     padding-bottom: 10px;
+    padding-top: 10px;
     transform: translateY(50%);
   }
 
@@ -190,15 +192,15 @@ footer {
   }
 
 .nueva-app .row {
-  width:75%;
-  margin-left: 0;
   border-left:none;
+  margin-left: 0;
+  width:75%;
 }
 
 .nueva-app p {
-line-height: 1.7;
-font-size: 17px;
-padding-bottom: 20px;
+  font-size: 17px;
+  line-height: 1.7;
+  padding-bottom: 20px;
 }
 
 .container-opacy {
@@ -208,13 +210,13 @@ padding-bottom: 20px;
 .container-opacy .container .row .leter{
   background-color: rgba(0, 0, 0, 0.5);
   float: right;
-  margin-top: 0;
   margin-right: 0;
+  margin-top: 0;
 }
 
 .container-opacy .container {
-  transform: translateY(0);
   margin-right: 0;
+  transform: translateY(0);
 }
 
 .tarifas .btn {
@@ -225,8 +227,8 @@ padding-bottom: 20px;
 }
 
 .tarifas .container iframe {
-  margin-top: 20px;
   margin-bottom: 20px;
+  margin-top: 20px;
 }
 
 .tarifas form {
