@@ -3,7 +3,6 @@ body *{
   font-family: 'Raleway', sans-serif;
 }
 
-/*Estilos al */
 .navbar {
   background-color: white;
   border:none;
@@ -156,6 +155,9 @@ footer {
   margin-top: 30px;
 }
 
+.modal-content .form-control {
+  margin-left: 10%;
+}
 /*Estilos responsive */
 
 @media (max-width: 768px) {
