@@ -11,8 +11,8 @@ Recrear la página web indicada en versión mobile y desktop.
 
 ### Versión Desktop:
 
-![LabCar Desktop](docs\Desktop-lab-car.png)
+![LabCar-Desktop](docs/Desktop-lab-car.png)
 
 ### Versión Mobile:
 
-![LabCar Mobile](docs\Mobile-lab-car.png)
+![LabCar Mobile](docs/Mobile-lab-car.png)
