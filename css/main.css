@@ -16,6 +16,11 @@ body *{
   height: 600px;
 }
 
+.comienza-viajar .row {
+  margin-right: 0;
+  margin-left: 0;
+}
+
 .jumbotron {
   background-color: #f7b617;
   color: white;
