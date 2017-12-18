@@ -43,9 +43,9 @@
           <h2 class="hidden-xs">Disfruta del viaje</h2>
           <h2 class="hidden-xs">Eres dueño de tu tiempo</h2>
           <h4 class="hidden-xs">Viaja con <img class="logo-blanco-small" src="assets/images/logoBlanco.png" alt="logo-blanco"></h4>
-          <p class="hidden-xs"><a class="btn btn-default btn-lg" href="#" role="button">REGÍSTRATE</a></p>
+          <p class="hidden-xs"><a class="btn btn-default btn-lg" href="#" role="button" data-target="#exampleModal1" data-toggle="modal">REGÍSTRATE</a></p>
           <h5 class="hidden-xs linea">O bien</h5>
-          <p class="hidden-xs"><a class="btn btn-default btn-lg" href="#" role="button">Conviertete en conductor</a></p>
+          <p class="hidden-xs"><a class="btn btn-default btn-lg" href="#" role="button" data-target="#exampleModal2" data-toggle="modal">Conviertete en conductor</a></p>
         </div>
      </div>
     </section>
@@ -147,32 +147,100 @@
       <h4>© 2017 LabCar Thechonologies Inc. </h4>
     </footer>
 
-
     <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-        <img class="center-block" src="assets/images/usuario.png" alt="user">
-      </div>
-      <div class="modal-body">
-          <form>
-          <div class="form-group">
-            <input type="email" class="form-control" placeholder="Username" id="recipient-name">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            <img class="center-block" src="assets/images/usuario.png" alt="user">
           </div>
-          <div class="form-group">
-            <input type="password" class="form-control" placeholder="Password" id="recipient-name">
+          <div class="modal-body">
+            <form>
+              <div class="form-group">
+                <input type="email" class="form-control" placeholder="Username" id="recipient-name">
+              </div>
+              <div class="form-group">
+                <input type="password" class="form-control" placeholder="Password" id="recipient-name">
+              </div>
+            </form>
           </div>
-        </form>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-primary center-block">LOGIN</button>
-        <h5 class="text-center">Forgot password? <a>Click here</a></h5>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-primary center-block">LOGIN</button>
+            <h5 class="text-center">Forgot password? <a>Click here</a></h5>
+          </div>
+        </div>
       </div>
     </div>
-  </div>
-</div>
 
+    <div class="modal fade" id="exampleModal1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            <h3 class="text-center"><span class="label label-default">Ya tienes una cuenta?</span></h3>
+            <h5 class="text-center">O CREA UNA CUENTA NUEVA</h5>
+          </div>
+          <div class="modal-body">
+              <form class="form-inline">
+                <div class="form-group">
+                  <input type="text" class="form-control" placeholder="Email">
+                </div>
+                <div class="form-group">
+                  <input type="text" class="form-control" placeholder="Password">
+                </div>
+              </form>
+              <form>
+                <div class="form-group">
+                  <input type="email" class="form-control" placeholder="Correo Electronico: ejemplo@correo.mx ">
+                  <input type="text" class="form-control"  placeholder="Telefono">
+                  <input type="text" class="form-control"  placeholder="Contraseña">
+                  <input type="text" class="form-control"  placeholder="Ciudad">
+                  <input type="number" class="form-control"  placeholder="(Opcional) Código de invitación ">
+                </div>
+              </form>
+          </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-primary center-block">ENVIAR</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="modal fade" id="exampleModal2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            </div>
+            <div class="modal-body">
+              <h4>¿Tienes vehículo de 4 puertas?</h4>
+              <select class="form-control input-lg">
+                <option value="">Si</option>
+                <option value="">No</option>
+              </select>
+              <h4>Marca</h4>
+              <select class="form-control input-lg">
+                <option value="">Elige la marca del vehículo</option>
+                <option value="">Nissan</option>
+              </select>
+              <h6>No ves tu correo en esta lista envia un correo a <a>sociosmdv@labcar.com</a></h6>
+              <h4>Modelo</h4>
+              <select class="form-control input-lg">
+                <option value="">Modelo 1</option>
+                <option value="">Modelo 2</option>
+              </select>
+              <h4>Año</h4>
+              <select class="form-control input-lg">
+                <option value="">2017</option>
+                <option value="">2016</option>
+              </select>
+              <h4>Número de la matrícula</h4>
+              <input type="number" class="form-control"  placeholder="Número de la matrícula">
+              <h6>La información de la matrícula ayuda a los clientes a identificar tu vehículo</h6>
+            </div>
+          </div>
+        </div>
+      </div>
 
     <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
     <script type="text/javascript" src="vendors/bootstrap/js/bootstrap.min.js"></script>

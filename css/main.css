@@ -138,6 +138,14 @@ h5:after,h5:before {
   display: inline-block;
 }
 
+.form-inline {
+  margin-left: 7%;
+}
+
+.form-inline .form-group input {
+  width: 220px;
+}
+
 footer {
   background-color: #2b2b2b;
   padding: 15px;
@@ -157,6 +165,21 @@ footer {
 
 .modal-content .form-control {
   margin-left: 10%;
+}
+
+#exampleModal1 h5 {
+  color:black;
+}
+
+#exampleModal2 h4 {
+  font-weight: bold;
+  margin-left: 60px;
+  padding-left: 0;
+  color: black;
+}
+
+#exampleModal2 h6 {
+  margin-left: 60px;
 }
 /*Estilos responsive */
 
