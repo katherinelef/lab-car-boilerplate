@@ -132,12 +132,14 @@ h5:after,h5:before {
   transform: translateX(120%);
 }
 
-.tarifas .container iframe {
+#map {
+  height: 50vh;
   border: 1px solid white;
   margin-bottom: 60px;
-  margin-top: 80px;
+  margin-top: 60px;
   padding: 10px;
 }
+
 .form-control {
   background-color: #f7b617;
   border:1px solid white;

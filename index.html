@@ -81,20 +81,20 @@
         <div class="form-group">
           <img class="col-xs-1" src="assets/images/shape.png" alt="punto">
           <div class="col-xs-10">
-            <input type="email" class="form-control" id="inputEmail3" placeholder="Origen">
+            <input type="text" class="form-control" id="inputPartida" placeholder="Origen">
           </div>
         </div>
         <div class="form-group">
           <img class="col-xs-1" src="assets/images/shape2.png" alt="punto">
           <div class="col-xs-10">
-            <input type="password" class="form-control" id="inputPassword3" placeholder="Destino">
+            <input type="text" class="form-control" id="inputDestino" placeholder="Destino">
           </div>
         </div>
-        <p><a class="btn btn-default btn-lg" href="#" role="button">¡TRAZAR RUTA!</a></p>
+        <p><a class="btn btn-default btn-lg" href="#" role="button" id="trazar-ruta">¡TRAZAR RUTA!</a></p>
       </form>
       <div class="container">
         <div class="row">
-          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d249743.72044611996!2d-77.12786389158117!3d-12.026603400591542!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105c5f619ee3ec7%3A0x14206cb9cc452e4a!2sLima!5e0!3m2!1ses!2spe!4v1513408850653" width="420" height="300" frameborder="0" allowfullscreen></iframe>
+          <div id="map"></div>
         </div>
       </div>
     </section>
@@ -246,6 +246,9 @@
         </div>
       </div>
 
+    <script async defer
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBexEnE7z4a-tSw-zMZlxqwUESVoQa3x10&callback=initMap&libraries=places">
+    </script>
     <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
     <script type="text/javascript" src="vendors/bootstrap/js/bootstrap.min.js"></script>
     <script type="text/javascript" src="js/app.js"></script>
